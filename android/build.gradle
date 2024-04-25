@@ -11,8 +11,8 @@ buildscript {
         ndkVersion = "23.1.7779620"
     }
     repositories {
-        google()
-        mavenCentral()
+        maven { url 'https://maven.aliyun.com/repository/google' }
+        maven { url 'https://maven.aliyun.com/repository/central' }
     }
     dependencies {
         classpath("com.android.tools.build:gradle")

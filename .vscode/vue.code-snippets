@@ -1,0 +1,44 @@
+{
+  "Vue模板": {
+    "prefix": "vue",
+    "body": [
+      "<template>",
+      "  <view class=\"\">",
+      "    $1",
+      "  </view>",
+      "</template>\n",
+      "<script>",
+      "export default {",
+      " name: '',",
+      "  data() {",
+      "    return {\n",
+      "    }",
+      "  },",
+      "  onLoad() {},",
+      "  methods: {},",
+      "  watch: {},",
+      "  components: {},",
+      "}",
+      "</script>\n",
+      "<style scoped lang=\"scss\">\n",
+      "</style>",
+      "$0"
+    ],
+    "description": "Vue模板"
+  },
+  "view": {
+    "prefix": "view",
+    "body": ["<View>$1</View>"],
+    "description": "view"
+  },
+  "text": {
+    "prefix": "text",
+    "body": ["<Text>$1</Text>"],
+    "description": "text"
+  },
+  "style": {
+    "prefix": "st",
+    "body": ["style={{$1}}"],
+    "description": "template"
+  }
+}
